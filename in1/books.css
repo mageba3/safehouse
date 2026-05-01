@@ -1,0 +1,58 @@
+
+.main-page{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.page-title{ 
+
+    text-align: center;
+    margin-top: 40vh;
+    font-style: italic;
+    font-weight:100;
+    color: rgba(0, 0, 0, 0.600);
+    transition: 0.5s;
+
+}
+
+.page-title:hover{
+
+    color: gold
+
+}
+
+.slogan{
+
+    text-align: center;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.600);
+    transition: 0.5s;
+
+}
+
+.slogan:hover{
+    color: gold;
+}
+
+
+
+
+
+
+.contents{
+
+    position: absolute;
+    top: 100vh;
+    right: 0;
+    left: 0; 
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+
+}
+
